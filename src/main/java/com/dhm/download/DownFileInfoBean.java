@@ -6,7 +6,7 @@ public class DownFileInfoBean {
     private String sSiteURL; // 文件的下载地址
     private String sFilePath; // 保存文件的路径
     private String sFileName; // 保存文件的名字
-    private int nSplitter; // 文件分成几段，默认是5段
+    private int nSplitter; // 文件分成几段，默认是5段..
     private boolean fileflag; // 如果为FALSE则是本地下载,为TRUE则URL下载
     private File downfile;
 
